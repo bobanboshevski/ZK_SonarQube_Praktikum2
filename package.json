@@ -1,0 +1,28 @@
+{
+  "name": "finalelectronreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development electron .",
+    "package": "NODE_ENV=production electron-builder --mac",
+    "package:windows": "NODE_ENV=production electron-builder --windows --x64"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flowbite-react": "^0.9.0",
+    "python": "^0.0.4",
+    "react-pdf": "^8.0.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "cross-env": "^7.0.3",
+    "electron": "^30.0.6",
+    "electron-builder": "^25.0.0-alpha.9",
+    "electron-reload": "^2.0.0-alpha.1",
+    "playwright": "^1.49.0"
+  }
+}
